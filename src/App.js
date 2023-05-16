@@ -3,7 +3,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/home/Home";
 function App() {
   return (
-    <div className="App">
+    <div className='App'>
       <BrowserRouter>
         <Routes path='/'>
           <Route index element={<Home />} />
