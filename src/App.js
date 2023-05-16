@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="App">
       <BrowserRouter>
-        <Routes path="/">
+        <Routes path='/'>
           <Route index element={<Home />} />
         </Routes>
       </BrowserRouter>
